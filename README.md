@@ -12,3 +12,5 @@ colorNamer.name(0, 130, 130)  // returns "teal"
 colorNamer.name(120, 128, 0)  // returns "olive"
 colorNamer.name(0, 40, 0)  // returns "neon green"
 ```
+
+It was built by training a simple neural network with 4 layers with [3 x 9 x 27 x 128] weights, to keep it lightweight but effective enough to identify the colors. After training, a wrapper was built to serve it in JS.
